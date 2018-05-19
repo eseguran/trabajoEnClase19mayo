@@ -54,14 +54,38 @@
 		7DCBDE9820B0DD7F008DB9EC /* Clase19mayo */ = {
 			isa = PBXGroup;
 			children = (
-				7DCBDE9920B0DD7F008DB9EC /* AppDelegate.swift */,
-				7DCBDE9B20B0DD7F008DB9EC /* ViewController.swift */,
-				7DCBDE9D20B0DD7F008DB9EC /* Main.storyboard */,
+				7DCBDEAD20B0DE01008DB9EC /* View */,
+				7DCBDEAC20B0DDF2008DB9EC /* Model */,
+				7DCBDEAB20B0DDC4008DB9EC /* Controller */,
 				7DCBDEA020B0DD80008DB9EC /* Assets.xcassets */,
-				7DCBDEA220B0DD80008DB9EC /* LaunchScreen.storyboard */,
 				7DCBDEA520B0DD80008DB9EC /* Info.plist */,
 			);
 			path = Clase19mayo;
+			sourceTree = "<group>";
+		};
+		7DCBDEAB20B0DDC4008DB9EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7DCBDE9920B0DD7F008DB9EC /* AppDelegate.swift */,
+				7DCBDE9B20B0DD7F008DB9EC /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7DCBDEAC20B0DDF2008DB9EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DCBDEAD20B0DE01008DB9EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DCBDEA220B0DD80008DB9EC /* LaunchScreen.storyboard */,
+				7DCBDE9D20B0DD7F008DB9EC /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8HZLK5G4X;
 				INFOPLIST_FILE = Clase19mayo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8HZLK5G4X;
 				INFOPLIST_FILE = Clase19mayo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
